@@ -1,0 +1,56 @@
+.header{
+    background-color: #193498;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FBFBFB;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header > h2{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.ContenedorCines{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #113CFC;
+}
+
+.Cine{
+    color: white;
+    background-color: #1597E5;
+    margin: 10px;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.butonSelect{
+    border: none;
+    background-color: #69DADB;
+    color: white;
+    border-radius: 10px;
+    -webkit-transition: all 0.9s 0.1s linear;
+    -moz-transition: all 0.9s 0.1s linear;
+    -o-transition: all 0.9s 0.1s linear;
+    transition: all 0.9s 0.1s linear;
+}
+
+.butonSelect:hover{
+    background-color: #091353;
+    color: #D5D5D5;
+}

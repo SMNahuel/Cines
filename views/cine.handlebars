@@ -1,0 +1,13 @@
+<div class="ContenedorCines">
+  {{#each cines}}
+    <div class="Cine" id="{{idCine}}">
+      <p>{{nombre}}</p>
+      <p>{{barrio}}</p>
+      <p>{{direccion}}</p>
+      <button
+        class="butonSelect"
+        onclick="selectCine({{idCines}})"
+      >Seleccionar</button>
+    </div>
+  {{/each}}
+</div>
